@@ -1,0 +1,17 @@
+{
+  "name": "tab-title",
+  "version": "1.0.0",
+  "description": "Sets process.title in node, document.title in browserify",
+  "main": "./process.js",
+  "scripts": {
+    "docs": "projectz && mos"
+  },
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "Unlicense",
+  "maintainers": [],
+  "contributors": [],
+  "browser": {
+    "./process.js": "./document.js"
+  }
+}

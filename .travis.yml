@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: wmhilton@gmail.com
+  on:
+    node: node
+    tags: true
+    branch: master
+    repo: wmhilton/tab-title
+  api_key:
+    secure: HMDQJVDZu/hbgwANeZkOhvpZGRGAXxVB9WZWbycB763DDh8aFXYilQQSPZ6jowEqivZeKdbkh13wEx1yqFsP59VzX+tisnMkXbYw1SeTVznz3s4TwpWQzXmtKBEsqa8R4qirh7TlNC/iD3dczlv7zPwr3vLO+6AWU4sVHkTBh5/yP1sB2lDHG6Gs+/X4HXaRgEdkTOH9D5LD2+MrSJ35yqxaKCf4cPoaZ/jxu+MYA3DKEV5OQ94M1q1jkBE1bu9Dy3QsqkR2MQOlU7VVYs5Uink5GzUwHTglg8avh0OWslDupDSbou/VKJqi/XmgQrz849t++TFL28amiy4ZKKHrMsj6P0WhlL1ah//dRL+Y8KADo134evkluoqE3t3qK4BY2ofeqYxfPzDoSnpr++tGXns4g+sJ+mGRyqy3x1yK8jBZGD4gBj9z2aKgUL1syjxo6+QDemBre+dMdA/+vTWo2Gzv7rPE60LAfq/Lpb7s7KCq/QGZGIOeHhdQdUW6+RwIoTqp0awWW4KJqz5hNvH7Ux8DhpAyefy1qVS8sT4/ZLD2fBwLtwlC7Ki0Jp2H5LM26rvllXzbk6ym+iDqTsB13Doy+Kki/VSgkUpgtBJN8r7O/inpN80rJDa1wLEOfEqSKzaUgTq/XxxKmnvCpkNsUZEKzVqkrjNeBf3C1PM+G2k=
